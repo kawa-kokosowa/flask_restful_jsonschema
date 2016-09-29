@@ -41,13 +41,15 @@ class Users(flask_restful.Resource):
 
     @validate_json
     def post(self, json_request):
-        pass
+        json_request["email"]
+        json_request["password"]
 
     @validate_json
     def put(self, json_request):
-        pass
+        json_request.get("email")
+        json_request.get("password")
 
     @validate_json
     def get(self, json_request):
-        pass
+        json_request["email"]
 ```
