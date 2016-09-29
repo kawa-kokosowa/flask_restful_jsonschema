@@ -6,6 +6,10 @@ Add the `@validate_json` decorator and schema class constant to
 `flask_restful.Resource` methods (post, get, etc.) in order to validate
 requests meet the `jsonschema`.
 
+Ensure JSON request matches schema specified in the class the wrapped method
+belongs to, provide that valid JSON to the method, or abort 400 with the
+validation error message.
+
 
 ```python
 from flask_restful_jsonschema import validate_json
