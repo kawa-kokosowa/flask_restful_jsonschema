@@ -1,0 +1,3 @@
+jsonschema
+flask
+flask_restful
