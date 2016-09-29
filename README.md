@@ -1,5 +1,7 @@
 # `flask_restful_jsonschema`
 
+[![PyPI Version](https://img.shields.io/pypi/v/flask_restful_jsonschema.svg?style=flat-square)](https://pypi.python.org/pypi/flask_restful_jsonschema/)
+
 Add the `@validate_json` decorator and schema class constant to
 `flask_restful.Resource` methods (post, get, etc.) in order to validate
 requests meet the `jsonschema`.
